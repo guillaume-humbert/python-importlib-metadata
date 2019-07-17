@@ -1,0 +1,7 @@
+python-importlib-metadata (0.18-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #932309)
+    - Python 2 version is required for new version of pytest and we can't
+      remove Python 2 version of pytest yet.
+
+ -- Ondřej Nový <onovy@debian.org>  Wed, 17 Jul 2019 15:52:16 +0200
