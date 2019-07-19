@@ -26,8 +26,8 @@ Build-Depends:
  python3-setuptools-scm,
  python3-zipp (>= 0.5),
 Standards-Version: 4.4.0
-Vcs-Browser: https://salsa.debian.org/python-team/modules/importlib-metadata
-Vcs-Git: https://salsa.debian.org/python-team/modules/importlib-metadata.git
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-importlib-metadata
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-importlib-metadata.git
 Homepage: https://gitlab.com/python-devs/importlib_metadata
 Testsuite: autopkgtest-pkg-python
 
