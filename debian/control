@@ -36,6 +36,7 @@ Architecture: all
 Depends:
  pypy-configparser,
  pypy-contextlib2,
+ pypy-pathlib2,
  ${misc:Depends},
  ${pypy:Depends},
 Description: library to access the metadata for a Python package - PyPy
@@ -50,6 +51,7 @@ Architecture: all
 Depends:
  python-configparser,
  python-contextlib2,
+ python-pathlib2,
  ${misc:Depends},
  ${python:Depends},
 Description: library to access the metadata for a Python package - Python 2.7
