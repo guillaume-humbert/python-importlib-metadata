@@ -1,9 +1,9 @@
-python-importlib-metadata (0.18-2) UNRELEASED; urgency=medium
+python-importlib-metadata (0.18-2) unstable; urgency=medium
 
   * d/control: Fix wrong Vcs-*.
   * Add pypy-pathlib2 and python-pathlib2 to depends.
 
- -- Ondřej Nový <onovy@debian.org>  Fri, 19 Jul 2019 23:34:00 +0200
+ -- Ondřej Nový <onovy@debian.org>  Thu, 01 Aug 2019 15:03:00 +0200
 
 python-importlib-metadata (0.18-1) unstable; urgency=medium
 
