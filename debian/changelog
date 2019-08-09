@@ -1,5 +1,6 @@
-python-importlib-metadata (0.18-3) UNRELEASED; urgency=medium
+python-importlib-metadata (0.19-1) UNRELEASED; urgency=medium
 
+  * New upstream release.
   * Add gbp.conf.
 
  -- Ondřej Nový <onovy@debian.org>  Fri, 09 Aug 2019 13:19:14 +0200
