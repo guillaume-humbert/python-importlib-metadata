@@ -1,3 +1,9 @@
+python-importlib-metadata (0.18-3) UNRELEASED; urgency=medium
+
+  * Add gbp.conf.
+
+ -- Ondřej Nový <onovy@debian.org>  Fri, 09 Aug 2019 13:19:14 +0200
+
 python-importlib-metadata (0.18-2) unstable; urgency=medium
 
   * d/control: Fix wrong Vcs-*.
