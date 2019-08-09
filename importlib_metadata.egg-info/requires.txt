@@ -9,5 +9,9 @@ pathlib2
 
 [docs]
 sphinx
-docutils==0.12
 rst.linker
+
+[testing]
+
+[testing:python_version < "3.7"]
+importlib_resources
