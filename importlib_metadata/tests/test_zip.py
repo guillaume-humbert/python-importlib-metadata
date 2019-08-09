@@ -1,19 +1,12 @@
 import sys
 import unittest
 
-from .. import distribution, entry_points, files, version
+from .. import distribution, entry_points, files, PackageNotFoundError, version
 
 try:
     from importlib.resources import path
 except ImportError:
-    try:
-        from importlib_resources import path
-    except ImportError:
-        path = None
-
-def setUpModule():
-    if not path:
-        raise unittest.SkipTest("importlib_resources not found")
+    from importlib_resources import path
 
 try:
     from contextlib import ExitStack
@@ -36,6 +29,10 @@ class TestZip(unittest.TestCase):
 
     def test_zip_version(self):
         self.assertEqual(version('example'), '21.12')
+
+    def test_zip_version_does_not_match(self):
+        with self.assertRaises(PackageNotFoundError):
+            version('definitely-not-installed')
 
     def test_zip_entry_points(self):
         scripts = dict(entry_points()['console_scripts'])
