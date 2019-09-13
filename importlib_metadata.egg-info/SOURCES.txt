@@ -25,6 +25,7 @@ importlib_metadata/docs/using.rst
 importlib_metadata/tests/__init__.py
 importlib_metadata/tests/fixtures.py
 importlib_metadata/tests/test_api.py
+importlib_metadata/tests/test_integration.py
 importlib_metadata/tests/test_main.py
 importlib_metadata/tests/test_zip.py
 importlib_metadata/tests/data/__init__.py
