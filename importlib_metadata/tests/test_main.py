@@ -40,7 +40,7 @@ class BasicTests(fixtures.DistInfoPkg, unittest.TestCase):
 class ImportTests(fixtures.DistInfoPkg, unittest.TestCase):
     def test_import_nonexistent_module(self):
         # Ensure that the MetadataPathFinder does not crash an import of a
-        # non-existant module.
+        # non-existent module.
         with self.assertRaises(ImportError):
             importlib.import_module('does_not_exist')
 
@@ -169,6 +169,10 @@ class DiscoveryTests(fixtures.EggInfoPkg,
             dist.metadata['Name'] == 'distinfo-pkg'
             for dist in dists
             )
+
+    def test_invalid_usage(self):
+        with self.assertRaises(ValueError):
+            list(distributions(context='something', name='else'))
 
 
 class DirectoryTest(fixtures.OnSysPath, fixtures.SiteDir, unittest.TestCase):
