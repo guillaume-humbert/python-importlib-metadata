@@ -1,9 +1,9 @@
-python-importlib-metadata (0.22-1) UNRELEASED; urgency=medium
+python-importlib-metadata (0.22-1) unstable; urgency=medium
 
   * New upstream release.
   * Add {pypy,python,python3}-packaging to B-D.
 
- -- Ondřej Nový <onovy@debian.org>  Fri, 13 Sep 2019 12:29:51 +0200
+ -- Ondřej Nový <onovy@debian.org>  Fri, 13 Sep 2019 13:16:31 +0200
 
 python-importlib-metadata (0.19-1) unstable; urgency=medium
 
