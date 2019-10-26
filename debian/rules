@@ -6,7 +6,7 @@ export PYBUILD_AFTER_INSTALL = \
 	rm -r '{destdir}/{install_dir}/importlib_metadata/docs'
 
 %:
-	dh $@ --with pypy,python2,python3 --buildsystem=pybuild
+	dh $@ --with python2,python3 --buildsystem=pybuild
 
 override_dh_auto_test:
 	PYBUILD_SYSTEM=custom \

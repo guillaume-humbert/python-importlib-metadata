@@ -1,15 +1,8 @@
-python-importlib-metadata (0.23-2) unstable; urgency=medium
-
-  * Bump Standards-Version to 4.4.1.
-  * Relax required configparser version in setup.cfg.
-
- -- Ondřej Nový <onovy@debian.org>  Mon, 21 Oct 2019 14:37:17 +0200
-
-python-importlib-metadata (0.23-1) unstable; urgency=medium
+python-importlib-metadata (0.23-1~ubuntu1) bionic; urgency=medium
 
   * New upstream release.
 
- -- Ondřej Nový <onovy@debian.org>  Thu, 19 Sep 2019 09:32:27 +0200
+ -- Guillaume J Humbert <guillaume.j.humbert@pm.me>  Sat, 26 Oct 2019 19:36:03 +0800
 
 python-importlib-metadata (0.22-1) unstable; urgency=medium
 

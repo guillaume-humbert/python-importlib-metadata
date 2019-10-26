@@ -5,16 +5,8 @@ Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.
 Uploaders:
  Ondřej Nový <onovy@debian.org>,
 Build-Depends:
- debhelper-compat (= 12),
+ debhelper (>= 10~),
  dh-python,
- pypy,
- pypy-configparser,
- pypy-contextlib2,
- pypy-packaging,
- pypy-setuptools,
- pypy-setuptools-scm,
- pypy-pathlib2,
- pypy-zipp (>= 0.5),
  python-all,
  python-configparser,
  python-contextlib2,
@@ -28,26 +20,13 @@ Build-Depends:
  python3-setuptools,
  python3-setuptools-scm,
  python3-zipp (>= 0.5),
-Standards-Version: 4.4.1
+Standards-Version: 4.1.4
 Vcs-Browser: https://salsa.debian.org/python-team/modules/python-importlib-metadata
 Vcs-Git: https://salsa.debian.org/python-team/modules/python-importlib-metadata.git
 Homepage: https://gitlab.com/python-devs/importlib_metadata
 Testsuite: autopkgtest-pkg-python
-
-Package: pypy-importlib-metadata
-Architecture: all
-Depends:
- pypy-configparser,
- pypy-contextlib2,
- pypy-pathlib2,
- ${misc:Depends},
- ${pypy:Depends},
-Description: library to access the metadata for a Python package - PyPy
- Provides an API for accessing an installed package’s metadata, such as its
- entry points or its top-level name. This functionality intends to replace
- most uses of pkg_resources entry point API and metadata API.
- .
- This package contains PyPy module.
+X-Python3-Version: >= 3.6
+X-Python-Version: >= 2.7
 
 Package: python-importlib-metadata
 Architecture: all
